@@ -6,7 +6,7 @@ public class FibonacciSeries {
         int b=1;
         System.out.println(a+"\n"+b);
         int rus;
-        for (int i = 0; i <=lastFibonacci; i++) {
+        for (int i = 2; i <lastFibonacci; i++) {
             rus=a+b;
             System.out.println(rus);
             a=b;
